@@ -1,0 +1,96 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://8803dd17-3ac7-453a-adaa-4576eee19353",
+	"@type": "sc:Manifest",
+	"label": "test",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "test from local imgs to iiif",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "cmo",
+	"sequences": [
+		{
+			"@id": "http://20f8c37b-7841-4b99-b346-a0c3d4b83ccc",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://940e48da-8bbf-41fd-8476-ec9b648aaa8a",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 0,
+					"width": 0,
+					"images": [],
+					"related": ""
+				},
+				{
+					"@id": "http://de4c4756-6ba6-4760-9444-3ad8f48a5565",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 1119,
+					"width": 839,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://7a499cbd-9013-4b83-9756-6cc0abd07adf",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://cmohge1.github.io/test/images/cen-0101/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://cmohge1.github.io/test/images/cen-0101",
+									"profile": "http://iiif.io/api/image/2/level0.json"
+								},
+								"height": 1119,
+								"width": 839
+							},
+							"on": "http://de4c4756-6ba6-4760-9444-3ad8f48a5565"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://ddca4703-bc92-4b8e-865d-966255af51f6",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 1074,
+					"width": 770,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://ea27e413-b19d-4bd7-a6d2-6bb19e71cbfc",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://cmohge1.github.io/test/images/cen-0102/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://cmohge1.github.io/test/images/cen-0102",
+									"profile": "http://iiif.io/api/image/2/level0.json"
+								},
+								"height": 1074,
+								"width": 770
+							},
+							"on": "http://ddca4703-bc92-4b8e-865d-966255af51f6"
+						}
+					]
+				}
+			]
+		}
+	],
+	"structures": []
+}
