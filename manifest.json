@@ -20,7 +20,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://github.com/cmohge1/dhsi-iiif-2024/blob/17ae2e137ca673bf05bd0d22dfeb8717868cc1b6/images/cen-0101.png",
+                "id": "https://raw.githubusercontent.com/cmohge1/dhsi-iiif-2024/main/images/cen-0101.png",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 2550,
